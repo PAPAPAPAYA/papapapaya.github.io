@@ -1,0 +1,137 @@
+/*mobile*/
+
+@import "desktop.css";
+
+.b, 
+.c, .c1, .c2, 
+.d, .d1, .d2,
+.e, 
+.f, .f1, .f2,
+.g, 
+.h, .h1, .h2{
+}
+
+.wrapper {
+	width:90%;
+	grid-auto-rows: minmax(50px, auto);
+	grid-template-areas:
+	
+	'b b b b'
+	'c1 c1 c1 c1'
+	'c c c c'
+	'd1 d1 d1 d1'
+	'd d d d'
+	'e e e e'
+	'f1 f1 f1 f1'
+	'f f f f'
+	'g g g g'
+	'h h h h';
+}
+
+.anchor{
+	top: 0vw;
+	font-size:3vw;
+	width:100%;
+	display:block;
+	margin:auto;
+}
+
+.intro{
+	font-size:6vw;
+	color:rgb(232,234,237);
+	letter-spacing: 0px;
+	line-height: 1.1;
+	word-spacing: -2px;
+	display:block;
+	width:90%;
+	margin:auto;
+	margin-bottom: 6vw;
+	margin-top:6vw;
+}
+
+.contact{
+	font-size:6vw;
+	color:rgb(232,234,237);
+	letter-spacing: 0px;
+	line-height: 1.1;
+	word-spacing: -2px;
+	display:block;
+	width:90%;
+	margin:auto;
+	margin-top: 14vw;
+	margin-bottom: 14vw;
+}
+
+.highlight{
+	font-size:6vw;
+	color:rgb(232,234,237);
+	letter-spacing: 0px;
+	line-height: 1.1;
+	word-spacing: -2px;
+	margin-bottom:6vw;
+	font-weight: bold;
+}
+
+.category{
+	font-size:6vw;
+	color:rgb(232,234,237);
+	letter-spacing: 0px;
+	line-height: 1.1;
+	word-spacing: -2px;
+	margin-bottom: 3vw;
+	margin-top: 10vw;
+}
+
+.projectFeatures{
+	color:rgb(232,234,237);
+	font-size:3vw;
+	margin-bottom:3vw;
+}
+
+.essayFeatures{
+	color:rgb(232,234,237);
+	font-size:3vw;
+	margin:auto;
+}
+
+hr{
+	 margin-top:0.1vw; 
+	 width:100%;
+}
+
+.yaiba{
+	font-size:4vw;
+}
+
+.yaiba a{
+	font-size:4vw;
+}
+
+.portal2{
+	font-size:4vw;
+}
+
+.portal2 a{
+	font-size:4vw;
+}
+
+.loveLetter{
+	font-size:4vw;
+}
+
+.kojima{
+	font-size:4vw;
+	margin-left:0;
+	margin-right:0vw;
+}
+
+.essayFeatures, .projectFeatures{
+	margin-left:2vw;
+	margin-top:2vw;
+}
+
+.projectPic img{
+	min-width:83vw;
+	min-height:20vh;
+	margin-bottom:2vw;
+}
